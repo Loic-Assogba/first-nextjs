@@ -1,5 +1,10 @@
 import { Button } from '@/components/ui/button';
 
 export default function Home() {
-    return <Button className="w-fit">Hello World</Button>;
+    return (
+        <section>
+            <h1 className="font-flexing font-bold text-2xl">Helloxg</h1>
+            <Button className="w-fit">Hello World</Button>
+        </section>
+    );
 }

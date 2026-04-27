@@ -1,19 +1,18 @@
 import type { Metadata } from 'next';
-import { Outfit, Geist } from 'next/font/google';
 import './globals.css';
 import localFont from 'next/font/local';
-import { cn } from "@/lib/utils";
+import { cn } from '@/lib/utils';
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
-
-const outfit = Outfit({
-    variable: '--font-outfit',
-    subsets: ['latin'],
+const flexing = localFont({
+    src: './fonts/flexing.otf',
+    variable: '--font-flexing',
+    display: 'swap',
 });
 
-const techovier = localFont({
-    src: './fonts/Techovier.otf',
-    variable: '--font-techovier',
+const satoshi = localFont({
+    src: './fonts/Satoshi.woff2',
+    variable: '--font-satoshi',
+    display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -29,9 +28,14 @@ export default function RootLayout({
     return (
         <html
             lang="fr"
-            className={cn("h-full", "antialiased", outfit.variable, techovier.variable, "font-sans", geist.variable)}
+            className={cn(
+                'h-full',
+                'antialiased',
+                flexing.variable,
+                satoshi.variable
+            )}
         >
-            <body className="min-h-full flex flex-col font-outfit">
+            <body className="min-h-full flex flex-col font-satoshi">
                 {children}
             </body>
         </html>
