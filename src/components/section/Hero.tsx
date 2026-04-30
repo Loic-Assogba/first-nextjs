@@ -19,13 +19,14 @@ export default function Hero () {
             </article>
             <article className='h-80 w-full  bg-linear-to-r from-black from-0% to-[#aeff46] to-30%'>
                  <aside className='relative h-full w-full flex justify-center items-center'>
-                      <div className='absolute flex justify-center items-center mx-auto h-full w-full'>  <Image
-                    src="/herman.png"
-                    alt="Herrmann Richy"
-                    width={300}
-                    height={300}
-                    className='w-65 h-65 md:w-75 md:h-75 rounded-full '
-                    />
+                      <div className='absolute flex justify-center items-center mx-auto h-full w-full'> 
+                         <Image
+                              src="/herman.png"
+                              alt="Herrmann Richy"
+                              width={300}
+                              height={300}
+                              className='w-65 h-65 md:w-75 md:h-75 rounded-full '
+                              />
                 </div>
                 <div className='absolute grid grid-cols-2 gap-x-10 md:gap-x-40'>
                    <span className='flex flex-col gap-15 mt-10'>
