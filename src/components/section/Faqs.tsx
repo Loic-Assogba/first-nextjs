@@ -19,7 +19,7 @@ export default function Faqs () {
 export  function questionList ({question, answer}: {question: string; answer: string}) {
     return (
          <div className="mx-auto mt-5 w-full px-10 ">
-             <details className="border border-white/20 bg-[#143607] py-4 rounded-xl group transition-all duration-300">
+             <details className="border border-white/20 bg-[#143607] lg:w-[80%] py-4 rounded-xl group transition-all duration-300">
                  <summary className="flex  items-center h-full list-none focus:outline-none pointer-events-none">
                      <div className="flex w-full md:gap-5 justify-between px-5 items-center h-full pointer-events-auto">
                         <h1 className="text-lg px-2">{question}</h1> 
