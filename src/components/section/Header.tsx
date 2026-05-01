@@ -64,9 +64,7 @@ export default function Header() {
     return (
         <>
             <header
-                className="flex items-center justify-between px-4 py-2 m-2 bg-white/10 
-            backdrop-filter backdrop-blur-sm border border-gray-100 rounded-full sticky top-0 z-10 lg:hidden"
-            >
+                className="flex items-center justify-between px-4 py-2 m-2 bg-white/10 backdrop-filter backdrop-blur-sm border border-gray-100 rounded-full sticky top-0 z-10 lg:hidden" >
                 <h1>Hermann Richy</h1>
                 <AlertDialog>
                     <AlertDialogTrigger asChild>
@@ -105,9 +103,7 @@ export default function Header() {
                 </AlertDialog>
             </header>
             <header
-                className="hidden lg:flex items-center justify-between p-2 m-2 bg-white/10 
-                backdrop-filter backdrop-blur-sm border border-gray-100 rounded-full sticky top-0 z-10
-                max-w-6xl mx-auto"
+                className="hidden lg:flex items-center justify-between p-2 m-2 bg-white/10 backdrop-filter backdrop-blur-sm border border-gray-100 rounded-full sticky top-0 z-10 max-w-6xl mx-auto"
             >
                 <h1 className="text-lg font-semibold">
                     <Link href="/">Hermann Richy</Link>

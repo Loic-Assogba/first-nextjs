@@ -35,7 +35,7 @@ export default function RootLayout({
                 satoshi.variable
             )}
         >
-            <body className="min-h-full flex flex-col font-satoshi">
+            <body className="min-h-full flex flex-col font-satoshi bg-black">
                 {children}
             </body>
         </html>
