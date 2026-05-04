@@ -1,6 +1,8 @@
 'use client';
+import ReactNode from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+
 import { Mail, FileText, Terminal, Code2, Cpu, Database } from 'lucide-react';
 
 const experiences = [
@@ -140,7 +142,7 @@ const GithubIcon = () => (
     </svg>
 );
 
-const socials: { label: string; Icon: () => JSX.Element }[] = [
+const socials: { label: string; Icon: () => React.ReactNode }[] = [
     { label: 'Email', Icon: MailIcon },
     { label: 'LinkedIn', Icon: LinkedInIcon },
     { label: 'Facebook', Icon: FacebookIcon },
