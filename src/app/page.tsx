@@ -1,11 +1,19 @@
+import Faqs from '@/components/section/Faqs';
+import Footer from '@/components/section/Footer';
 import Header from '@/components/section/Header';
 import About from '@/components/section/About';
+import Hero from '@/components/section/Hero';
+import Vision from '@/components/section/Vision';
+
 export default function Home() {
     return (
         <main>
             <Header />
             <About />
-
+            <Hero />
+            <Faqs />
+            <Vision />
+            <Footer />
         </main>
     );
 }
